@@ -1,0 +1,15 @@
+@mixin margin($p1) {
+    margin: $p1;
+}
+
+@mixin padding($pa1){
+    padding: $pa1;
+}
+
+@mixin card ($img,$ancho){
+    background-image: url($img);
+    background-color: $black;
+    max-width: $ancho;
+   @include margin(60px auto);
+   background-size: 100%;
+}

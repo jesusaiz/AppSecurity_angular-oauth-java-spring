@@ -1,0 +1,68 @@
+@import "variables";
+@import "mixin";
+
+
+/************************************
+***Estilos básicos par formularios***
+*************************************/
+
+.card_login{
+   
+    @include card('/assets/images/mac_login.png', 500px);
+}
+.card_curso{
+   
+    @include card('/assets/images/mac_curso.jpg', 700px);
+    margin: 60 auto;
+}
+.card {
+    @include card('/assets/images/mac_forms.png', 635px);
+     padding: 103px 30px 0;
+      
+    
+}
+
+.card-header{
+    text-align: $text-align;
+    font-size: $h1;
+    color: $black;
+    padding: 0;
+    @include margin(0 auto);
+}
+.card-footer{
+   
+    @include card('/assets/images/mac_footer.jpg', 700px);
+    @include margin(0);
+    @include padding(0);
+    text-align: $text-align;
+}
+.card-body-login{
+    @include padding(36px);
+}
+.form-control{
+    width: 90%;
+    @include margin(auto);
+}
+.form-group-button-footer{
+    width: 90%;
+    @include margin(auto);
+   max-width: 100%;
+   background-size: 100%;
+    background-image: url('/assets/images/mac_forms_footer.png');
+}
+
+.btn-primary{
+    color: $black;
+    background-color:$appleButtonColor;
+    border-color: $black;
+    padding: 0 6px;
+    margin-right: 20px;
+   
+}
+.btn-primary:hover{
+    background-color:$appleButtonColorHover;
+}
+.button-top{
+    margin: 10px;
+}
+

@@ -1,0 +1,485 @@
+@charset "UTF-8";
+/****COLORES*****/
+/****TEXTOS-FUENTES*****/
+/****MARGIN-PADDING-BORDER*****/
+/****COLORES*****/
+/****TEXTOS-FUENTES*****/
+/****MARGIN-PADDING-BORDER*****/
+/************************************
+***Estilos básicos par formularios***
+*************************************/
+.card_login {
+  background-image: url("/assets/images/mac_login.png");
+  background-color: #333;
+  max-width: 500px;
+  margin: 60px auto;
+  background-size: 100%;
+}
+
+.card_curso {
+  background-image: url("/assets/images/mac_curso.jpg");
+  background-color: #333;
+  max-width: 700px;
+  margin: 60px auto;
+  background-size: 100%;
+  margin: 60 auto;
+}
+
+.card {
+  background-image: url("/assets/images/mac_forms.png");
+  background-color: #333;
+  max-width: 635px;
+  margin: 60px auto;
+  background-size: 100%;
+  padding: 103px 30px 0;
+}
+
+.card-header {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.card-footer {
+  background-image: url("/assets/images/mac_footer.jpg");
+  background-color: #333;
+  max-width: 700px;
+  margin: 60px auto;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.card-body-login {
+  padding: 36px;
+}
+
+.form-control {
+  width: 90%;
+  margin: auto;
+}
+
+.form-group-button-footer {
+  width: 90%;
+  margin: auto;
+  max-width: 100%;
+  background-size: 100%;
+  background-image: url("/assets/images/mac_forms_footer.png");
+}
+
+.btn-primary {
+  color: #333;
+  background-color: #c5c5c5;
+  border-color: #333;
+  padding: 0 6px;
+  margin-right: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #888888;
+}
+
+.button-top {
+  margin: 10px;
+}
+
+/****COLORES*****/
+/****TEXTOS-FUENTES*****/
+/****MARGIN-PADDING-BORDER*****/
+/****COLORES*****/
+/****TEXTOS-FUENTES*****/
+/****MARGIN-PADDING-BORDER*****/
+/************************************
+***Estilos básicos par formularios***
+*************************************/
+.card_login {
+  background-image: url("/assets/images/mac_login.png");
+  background-color: #333;
+  max-width: 500px;
+  margin: 60px auto;
+  background-size: 100%;
+}
+
+.card_curso {
+  background-image: url("/assets/images/mac_curso.jpg");
+  background-color: #333;
+  max-width: 700px;
+  margin: 60px auto;
+  background-size: 100%;
+  margin: 60 auto;
+}
+
+.card {
+  background-image: url("/assets/images/mac_forms.png");
+  background-color: #333;
+  max-width: 635px;
+  margin: 60px auto;
+  background-size: 100%;
+  padding: 103px 30px 0;
+}
+
+.card-header {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.card-footer {
+  background-image: url("/assets/images/mac_footer.jpg");
+  background-color: #333;
+  max-width: 700px;
+  margin: 60px auto;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.card-body-login {
+  padding: 36px;
+}
+
+.form-control {
+  width: 90%;
+  margin: auto;
+}
+
+.form-group-button-footer {
+  width: 90%;
+  margin: auto;
+  max-width: 100%;
+  background-size: 100%;
+  background-image: url("/assets/images/mac_forms_footer.png");
+}
+
+.btn-primary {
+  color: #333;
+  background-color: #c5c5c5;
+  border-color: #333;
+  padding: 0 6px;
+  margin-right: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #888888;
+}
+
+.button-top {
+  margin: 10px;
+}
+
+/*
+*
+Header Principal
+*
+*/
+header {
+  position: fixed;
+  width: 100%;
+  min-height: 66px;
+  z-index: 600;
+}
+
+header .row {
+  position: relative;
+  /*min-height: 66px;*/
+}
+
+header .top-bar {
+  display: block;
+  min-width: 300px;
+  min-height: 92px;
+  position: absolute;
+  box-shadow: 0 3px 12px rgba(110, 111, 114, 0.6);
+  left: 90px;
+  top: 0;
+}
+
+header .logo {
+  padding-top: 16px;
+}
+header .logo img {
+  float: left;
+  display: block;
+  padding-left: 10px;
+  border: none;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  width: 55px;
+}
+header .logo .main-title {
+  font-size: 16px;
+  line-height: 2.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  color: #df5c6d;
+  text-align: center;
+  margin-left: 55px;
+  float: left;
+}
+header .logo .main-title-project {
+  color: burlywood;
+  font-size: 16px;
+  line-height: 2.3rem;
+  float: left;
+  margin-left: 30px;
+}
+
+header .top-bar.sesion {
+  display: block;
+  background: #000000;
+  min-width: 100px;
+  min-height: 66px;
+  position: absolute;
+  left: 430px;
+  top: 0;
+}
+
+/**
+ * responsive:
+ * header styles
+ * --------------------------------------------------------------- 
+ */
+@media only screen and (max-width: 1024px) {
+  header .top-bar {
+    left: 60px;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .navbar .navbar-toggler {
+    color: #343a40;
+    background-color: #343a40;
+  }
+
+  .main-title-project {
+    text-align: center;
+  }
+
+  .navbar {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .card {
+    background-image: url("/assets/images/macos_forms_movil.png");
+    background-color: #333;
+    max-width: 635px;
+    margin: 60px auto;
+    background-size: 100%;
+    padding: 103px 30px 0;
+  }
+
+  .bg-dark {
+    height: 100px;
+    position: inherit;
+  }
+}
+@media only screen and (min-width: 840px) {
+  .navbar {
+    margin: 70px auto;
+  }
+}
+/*
+*
+Header Principal
+*
+*/
+header {
+  position: fixed;
+  width: 100%;
+  min-height: 66px;
+  z-index: 600;
+}
+
+header .row {
+  position: relative;
+  /*min-height: 66px;*/
+}
+
+header .top-bar {
+  display: block;
+  min-width: 300px;
+  min-height: 92px;
+  position: absolute;
+  box-shadow: 0 3px 12px rgba(110, 111, 114, 0.6);
+  left: 90px;
+  top: 0;
+}
+
+header .logo {
+  padding-top: 16px;
+}
+header .logo img {
+  float: left;
+  display: block;
+  padding-left: 10px;
+  border: none;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  width: 55px;
+}
+header .logo .main-title {
+  font-size: 16px;
+  line-height: 2.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  color: #df5c6d;
+  text-align: center;
+  margin-left: 55px;
+  float: left;
+}
+header .logo .main-title-project {
+  color: burlywood;
+  font-size: 16px;
+  line-height: 2.3rem;
+  float: left;
+  margin-left: 30px;
+}
+
+header .top-bar.sesion {
+  display: block;
+  background: #000000;
+  min-width: 100px;
+  min-height: 66px;
+  position: absolute;
+  left: 430px;
+  top: 0;
+}
+
+/**
+ * responsive:
+ * header styles
+ * --------------------------------------------------------------- 
+ */
+@media only screen and (max-width: 1024px) {
+  header .top-bar {
+    left: 60px;
+  }
+}
+/*
+*
+Footer
+*
+*/
+#intro-footer {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 300px;
+  display: table;
+  text-align: center;
+  background: #343a40 !important;
+}
+
+.intro-social {
+  display: block;
+  /*position: absolute;*/
+  width: 100%;
+  left: 0;
+  bottom: 7.2rem;
+  font-size: 3.3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.intro-social li {
+  display: inline-block;
+  margin: 0 20px;
+  padding: 0;
+}
+
+.intro-social li a, .intro-social li a:visited {
+  color: #c5c5c5;
+}
+
+.intro-social li a:hover, .intro-social li a:focus {
+  color: #df5c6d;
+}
+
+/**
+ * responsive:
+ * Intro
+ * --------------------------------------------------------------- 
+ */
+@media only screen and (max-width: 1024px) {
+  .intro-social {
+    font-size: 3rem;
+  }
+
+  .intro-social li {
+    margin: 0 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #intro-footer {
+    bottom: 0;
+    position: fixed;
+  }
+
+  .intro-social {
+    font-size: 2.5rem;
+  }
+
+  .intro-social li {
+    margin: 0 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .intro-social {
+    font-size: 2.4rem;
+  }
+}
+/********************
+***Estilos Generales del proyecto***
+***********************/
+body {
+  background-color: #63639c;
+  font-family: VT323;
+  width: 100%;
+}
+
+.container {
+  max-width: 38em;
+}
+
+.navbar {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 19px;
+  padding: 0 20px;
+  background-image: url("/assets/images/mac_header.png");
+  background-size: contain;
+  width: 577px;
+}
+.navbar .navbar-toggler {
+  border-color: #343a40;
+}
+.navbar .btn-outline-primary {
+  border-color: #007bff03;
+}
+.navbar .btn-outline-primary:hover {
+  height: 30px;
+}
+.navbar .navbar-brand {
+  margin-left: 268px;
+  font-size: 15px;
+  color: #333;
+  padding: 0;
+}
+.navbar .navbar-collapse li {
+  background-color: #343a40;
+}
+.navbar .navbar-toggler {
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

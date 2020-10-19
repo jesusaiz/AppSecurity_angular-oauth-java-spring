@@ -1,0 +1,83 @@
+/*
+*
+Header Principal
+*
+*/
+
+header {
+	position: fixed;
+	width: 100%;
+	min-height: 66px;
+	z-index: 600;
+}
+header .row {
+	position: relative;
+	/*min-height: 66px;*/
+}
+header .top-bar {
+	display: block;
+	min-width: 300px;
+	min-height: 92px;
+	position: absolute;
+	box-shadow: 0 3px 12px hsla(225,2%,44%,.6);
+	left: 90px;
+	top: 0;
+}
+header .logo {
+   padding-top: 16px;
+        img {
+            float: left;
+            display: block;
+            padding-left: 10px;
+            border: none;
+            font: 0/0 a;
+            text-shadow: none;
+            color: transparent;
+            width: 55px;
+        }
+        .main-title{
+            font-size: 16px;
+            line-height: 2.3rem;
+            text-transform: uppercase;
+            letter-spacing: .15rem;
+            color: #df5c6d;
+            text-align: center;
+            margin-left: 55px;
+            float: left;
+        }
+        .main-title-project{
+            color: burlywood;
+            font-size: 16px;
+            line-height: 2.3rem;
+            float: left;
+            margin-left: 30px;
+        }
+}
+
+
+
+header .top-bar.sesion{
+	display: block;
+	background: #000000;
+	min-width: 100px;
+	min-height: 66px;
+	position: absolute;
+	left: 430px;
+	top: 0;
+	
+}
+
+
+
+
+/**
+ * responsive:
+ * header styles
+ * --------------------------------------------------------------- 
+ */
+@media only screen and (max-width:1024px) {
+	header .top-bar {
+		left: 60px;
+	}
+}
+

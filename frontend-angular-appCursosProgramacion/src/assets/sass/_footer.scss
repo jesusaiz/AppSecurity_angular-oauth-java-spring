@@ -1,0 +1,71 @@
+/*
+*
+Footer
+*
+*/
+#intro-footer {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	min-height: 300px;
+	display: table;
+	text-align: center;
+    background: $navbarBlack!important;
+   
+}
+.intro-social {
+	display: block;
+	/*position: absolute;*/
+	width: 100%;
+	left: 0;
+	bottom: 7.2rem;
+	font-size: 3.3rem;
+	margin: 0;
+	padding: 0;
+}
+.intro-social li {
+	display: inline-block;
+	margin: 0 20px;
+	padding: 0;
+}
+.intro-social li a, .intro-social li a:visited {
+	color: $appleButtonColor;
+}
+.intro-social li a:hover, .intro-social li a:focus {
+	color: #df5c6d;
+}
+
+/**
+ * responsive:
+ * Intro
+ * --------------------------------------------------------------- 
+ */
+@media only screen and (max-width:1024px) {
+
+	.intro-social {
+		font-size: 3rem;
+	}
+	.intro-social li {
+		margin: 0 15px;
+	}
+}
+@media only screen and (max-width:768px) {
+	#intro-footer{
+        bottom: 0;
+        position: fixed;
+    }
+	.intro-social {
+		font-size: 2.5rem;
+	}
+	.intro-social li {
+		margin: 0 10px;
+	}
+}
+@media only screen and (max-width:600px) {
+	
+	.intro-social {
+		font-size: 2.4rem;
+	}
+}

@@ -1,0 +1,57 @@
+@import "variables";
+@import "forms";
+@import "mixin";
+@import "mediaQueries";
+@import "header";
+@import "footer";
+
+/********************
+***Estilos Generales del proyecto***
+***********************/
+body{
+    background-color: $appleFondo;
+    font-family: $font-family;
+    width: 100%;
+}
+.container{
+    max-width: 38em;
+}
+
+.navbar{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 19px;
+    padding: 0 20px;
+    background-image: url('/assets/images/mac_header.png');
+    background-size: contain;
+    width: 577px;
+   
+
+    .navbar-toggler{
+        border-color: $navbarBlack;
+    }
+    .btn-outline-primary{
+        border-color:#007bff03;
+    }
+    .btn-outline-primary:hover{
+        height: 30px;
+    }
+    .navbar-brand{
+        margin-left: 268px;
+        font-size: 15px;
+        color:$black;
+        padding: 0;
+
+    }
+    .navbar-collapse{
+        li{
+            background-color: $navbarBlack;
+        }
+
+    }
+    
+   
+   .navbar-toggler{
+       font-size: 10px;
+   }
+}
