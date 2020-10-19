@@ -1,20 +1,18 @@
-# Websocket Chat
-This app it´s a simple bidirectional Chat using Stomp protocol and SocketJs
+# AppSecurity
+This app with Security roles 
 
 The project was generated with the following tecnologies: 
 
-Front-end: Angular version 8.3.13, SOCKJS, STOMPJS
+Front-end: Angular version 8.3.13, OAUTH-JWT
 
-Back-end: Java EE, SpringWebsocket(broker)
+Back-end: Java EE, SpringSecurity-OAUTH2-JWT
 
 ***important***
-If you want test-live the app copy/paste the following link into your browser:
-
-LINK: https://chat-angular-socketjs-app.web.app/chat
+SOON YOU WILL TEST ONLINE THE APP WITH FIREBASE
 
 
 # Images of the ChatApp
-![](showcase/apirest_java_spring_angular.gif)
+![](showcase/loginAPP_showcase.gif)
 
 
 
