@@ -1,5 +1,5 @@
 # AppSecurity
-This is a tiny app where implements Security roles and paths by a login to enter the application according to your role (admin, user) using credentials.
+This is a tiny app where implements Security roles and paths by a login to enter the application according to your role (admin, user) using token.
 
 The project was generated with the following tecnologies: 
 
