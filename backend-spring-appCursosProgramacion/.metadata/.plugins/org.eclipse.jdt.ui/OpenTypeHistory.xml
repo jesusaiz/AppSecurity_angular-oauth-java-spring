@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=microservicio-clientes/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.microservicioclientes.service{ClienteService.java[ClienteService" modifiers="513" timestamp="1616239563000"/>
+    <typeInfo handle="=microservicio-clientes/\/Users\/jesussaiz\/.m2\/repository\/org\/apache\/tomcat\/embed\/tomcat-embed-websocket\/9.0.43\/tomcat-embed-websocket-9.0.43.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.apache.tomcat.embed=/=/maven.artifactId=/tomcat-embed-websocket=/=/maven.version=/9.0.43=/=/maven.scope=/compile=/&lt;javax.websocket(ClientEndpointConfig.class[ClientEndpointConfig" modifiers="1537" timestamp="1614767524000"/>
+    <typeInfo handle="=microservicio-cuentas/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;microserviciocuentas.models.service{MovimientoService.java[MovimientoService" modifiers="513" timestamp="1616239758000"/>
+    <typeInfo handle="=microservicio-cuentas/\/Library\/Java\/JavaVirtualMachines\/jdk-12.0.2.jdk\/Contents\/Home\/lib\/jrt-fs.jar`jdk.internal.vm.compiler=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/12\/docs\/api\/=/&lt;org.graalvm.compiler.lir(StandardOp$MoveOp.class[MoveOp" modifiers="1545" timestamp="1563239760000"/>
+    <typeInfo handle="=microservicio-cuentas/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;microserviciocuentas.models.repository{CuentaRepository.java[CuentaRepository" modifiers="513" timestamp="1616579414000"/>
+</typeInfoHistroy>
